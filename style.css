@@ -1,5 +1,60 @@
-#sambutan{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#badan{
+    background-color: rgba(250, 245, 215, 0.849);
+    background-image: url(wpp.jpg);
+    background-size: cover;
+    font-family: monospace;
+}
+#badan h1{
+    font-size: xx-large;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   background-color:dimgray;
+    align-items: center;
+    font-family:monospace;
+}
+.navbar div h1 strong {
+    font-size: xx-large;
+    margin-left: 20px;
+}
+.navbar div h1 strong a {
+text-decoration: none;
+color: black;
+}
+.navbar ul li {
+list-style: none;
+display: inline;
+margin-right: 20px;
+text-decoration:none ;
+}
+
+.navbar ul li a {
+text-decoration:none ;
+color: black;
+}
+.navbar ul li a:hover {
+    background-color: white;
+
+}
+.sambutan{
     width: 50%;
-    height: 100%;
-    background-color: bisque;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.sambutan h1 {
+font-size: xx-large;
+}
+.sambutan p {
+font-size:larger;
 }

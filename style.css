@@ -3,45 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#badan{
-    background-color: rgba(250, 245, 215, 0.849);
-    background-image: url(wpp.jpg);
-    background-size: cover;
-    font-family: monospace;
-}
-#badan h1{
-    font-size: xx-large;
-}
 .navbar{
     display: flex;
     justify-content: space-between;
    background-color:dimgray;
     align-items: center;
-    font-family:monospace;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 8px;
+    font-size:small;
 }
-.navbar div h1 strong {
+.navbar div h1 {
     font-size: xx-large;
     margin-left: 20px;
+    font-size:x-large;
 }
-.navbar div h1 strong a {
+.navbar div h1 a {
 text-decoration: none;
-color: black;
+color: white;
 }
 .navbar ul li {
 list-style: none;
 display: inline;
-margin-right: 20px;
+margin-right: 30px;
 text-decoration:none ;
 }
-
 .navbar ul li a {
 text-decoration:none ;
-color: black;
+color: white;
+font-size: medium;
 }
 .navbar ul li a:hover {
-    background-color: white;
-
+    background-color: black;
 }
 .sambutan{
     width: 50%;
@@ -57,4 +49,30 @@ font-size: xx-large;
 }
 .sambutan p {
 font-size:larger;
+}
+#badan{
+    background-image: url(bcg2.jpg);
+    background-size: cover;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+}
+#badan main {
+ width: 60%;
+ margin: 30px;
+ height: 80%;
+ background-color:rgb(131, 131, 131, 0.2);
+ padding: 15px;
+ border-radius: 20px;
+}
+#badan main p {
+text-align: justify;
+color: white;
+font-size: large;
+}
+#badan > h1 {
+text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 20px;
 }

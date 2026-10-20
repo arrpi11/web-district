@@ -13,7 +13,7 @@
     background-color:rgba(131, 131, 131, 0.2);
     align-items: center;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 8px;
+    padding: 1px;
     font-size:small;
     margin: 15px;
     border-radius: 10px;
@@ -53,14 +53,14 @@ padding: 5px;
     border-radius: 10px;
 }
 .sambutan{
-    width: 900px;
+    width: 50%;
     margin: 30px;
     border-style: solid;
     padding: 30px;
+    padding-bottom: 90px;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    height: 800px;
 }
 .sambutan h1{
     font-size: 50px;
@@ -73,11 +73,12 @@ padding: 5px;
 .visi{
     border-style: solid;
     padding: 40px;
-    width: 900px;
-    height: 800px;
+    width: 50%;
     margin: 30px;
     align-self: flex-end;
+    border-style: solid;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
 }
 .visi h1{
   font-size: 50px;
@@ -87,4 +88,20 @@ padding: 5px;
     font-size: x-large;
     text-align: justify;
 }
-
+.prestasi{
+    border-style: solid;
+    padding: 40px;
+    width: 50%;
+    min-height: 90vh;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 70px;
+}
+.prestasi h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.prestasi ul{
+    font-size: x-large;
+    text-align: justify;
+}
